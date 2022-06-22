@@ -1,0 +1,33 @@
+.widget {
+    min-width: 28.125rem;
+}
+
+.widget input, .widget-list, .widget-list li {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: .625rem;
+}
+
+.widget input {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 1.875rem;
+}
+
+.widget-list {
+    background-color: rgb(229,229,229);
+    list-style: none;
+    padding: .625rem;
+}
+
+.widget-list li {
+    margin-bottom: .3125rem;
+    background-color: #fff;
+    line-height: 1.875rem;
+    text-align: center;
+}
+
+.widget-list li:last-child {
+    margin-bottom: 0;
+}
